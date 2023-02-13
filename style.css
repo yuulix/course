@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Signika+Negative:wght@500&display=swap');
+
+
+body {
+    font: 16px 'Signika', sans-serif;
+    color: #3e5716;
+    background: #f1f1f1;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.photo {
+    width: 200px;
+    border: #f1f1f100;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+
+}
+
+.info {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.card {
+    border: #f1f1f100;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 50%;
+}
+
+table td {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+table td:hover {
+    color: #a7ca6f
+}
+
+table tr:nth-child(even) {
+    background: #eee;
+}
+
+.green {
+    background-color: #6e9771;
+}
+
+.yellow {
+    background-color: #afda77;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #3e5716;
+    font-weight: 700;
+
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px #444444;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: 1px #7c7979;
+    border-radius: 5px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+a:hover {
+    color: orange;
+    font-size: larger;
+    transition: all, 2s;
+
+}
+
+a:visited {
+    color: green;
+    font-style: inherit;
+}
+
+a:active {
+    color: blue;
+}
